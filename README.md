@@ -20,7 +20,13 @@ By following these steps, you can **reproduce** the entire experimentation pipel
 ---
 
 ## 2. Setting Up the Environment
+If you want to use github codespace to run the scripts, follow these steps:
+```bash
+pip install -r requirements_codespace.txt
+```
+Note: Training on the CPU may yield different results!
 
+If you want to run locally, follow these steps:
 **Required:**
 - **Python 3.10.11** (verified to work with pinned dependencies in `requirements.txt`)
 - **CUDA 12.4** (for GPU-accelerated PyTorch operations, if applicable)
@@ -146,11 +152,11 @@ These scripts will create a modified dataset (e.g., dropping a specific column) 
 
 ---
 
-## 4. Colab Notebook
+## 4. Github Codespace
 
-If you prefer running these experiments on Google Colab, you can do so by opening the following link and following the instructions within the notebook to replicate the environment, upload files, and execute the scripts:
+If you prefer running these experiments on Github Codespace, you can do so by opening the following link and installing dependencies in `requirements_codespace.txt` :
 
-\[ **Paste your Colab link here** \]
+\[ **[Link to this repository GitHub codespace](https://expert-space-pancake-jx645w6p5vr25pg4.github.dev/)** \]
 
 ---
 
