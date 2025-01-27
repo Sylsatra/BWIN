@@ -1,3 +1,4 @@
+```markdown
 # Repository: Sleep and Academic Performance
 
 Welcome to the **Sleep and Academic Performance** repository! This repository contains the **original CSV dataset** and **Python scripts** needed to encode survey data, run experiments with various Graph Neural Network models (GraphSAGE, GCN, MLP), and test the impact of dropping different features (survey questions) on model performance. You’ll also find a Streamlit app (`survey.py`) that provides an interactive survey interface.
@@ -15,14 +16,23 @@ Welcome to the **Sleep and Academic Performance** repository! This repository co
    - Train and evaluate machine learning models (GraphSAGE, GCN, MLP).
    - Test the impact of dropping certain survey columns (features) on the models’ predictive accuracy.
 
-By following these steps, you can **reproduce** the entire experimentation pipeline on your local machine or a cloud environment (e.g., Google Colab).
+By following these steps, you can **reproduce** the entire experimentation pipeline on your local machine or in a cloud environment (e.g., Google Colab).
 
 ---
 
 ## 2. Setting Up the Environment
 
-Before running any scripts, you need to:
-1. **Create a Virtual Environment** (recommended)  
+This project has been tested with:
+- **Python 3.10.11**  
+- **CUDA 12.4** (for GPU-based operations)
+
+Below are recommended steps to set up your environment:
+
+1. **Install Python 3.10.11**  
+   - Ensure you have Python **3.10.11** installed.  
+   - If you’re using a GPU and plan to run CUDA-accelerated training, confirm that **CUDA 12.4** is available on your system.
+
+2. **Create a Virtual Environment** (recommended)  
    ```bash
    python -m venv venv
    ```
@@ -31,11 +41,13 @@ Before running any scripts, you need to:
      - On Windows: `venv\Scripts\activate`
      - On macOS/Linux: `source venv/bin/activate`
 
-2. **Install the Required Dependencies**  
+3. **Install the Required Dependencies**  
    ```bash
    pip install -r requirements.txt
    ```
    - This installs all necessary libraries (e.g., PyTorch, PyTorch Geometric, Streamlit, etc.) needed to run the scripts.
+
+> **Note**: If you’re on a system or environment that defaults to a different Python version (e.g., on Colab with Python 3.11), you may need to adjust your environment or unpin some packages. Please consult the repository’s issues or documentation if you encounter version conflicts.
 
 ---
 
@@ -153,3 +165,4 @@ These scripts will create a modified dataset (e.g., dropping a specific column) 
 - For any issues or questions, feel free to open an **issue** on this repository, or contact the repository owner directly.
 
 Thank you for your interest in the **Sleep and Academic Performance** repository. We hope you find these scripts and data useful for your research or educational endeavors!
+```
