@@ -154,9 +154,9 @@ These scripts will create a modified dataset (e.g., dropping a specific column) 
 
 ## 4. Github Codespace
 
-If you prefer running these experiments on Github Codespace, you can do so by opening the following link and installing dependencies in `requirements_codespace.txt` :
+If you prefer running these experiments on Github Codespace, you can do so by creating a code space for this repo and installing dependencies in `requirements_codespace.txt` :
 
-\[ **[Link to this repository GitHub codespace](https://expert-space-pancake-jx645w6p5vr25pg4.github.dev/)** \]
+<img width="408" alt="Screen Shot 2025-02-19 at 18 12 04" src="https://github.com/user-attachments/assets/80292abe-99f6-41d4-8335-8b85211ea3b6" />
 
 ---
 
